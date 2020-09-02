@@ -1,0 +1,35 @@
+##########################################################
+###    PACKAGE SYSTEMS                                 ###
+##########################################################
+
+node_modules/
+
+package-lock.json
+npm-shrinkwrap.json
+npm-debug.log*
+
+yarn-cache/
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+
+##########################################################
+###    EDITORS                                         ###
+##########################################################
+
+###  Sublime Text  ----------------------------------- ###
+.sublime-settings
+*.sublime-project
+*.sublime-workspace
+
+###  Atom  ------------------------------------------- ###
+.atomignore
+
+###  Visual Studio Code  ----------------------------- ###
+.vscode/
+
+### WebStorm and IntelliJ  --------------------------- ###
+.idea/
+.idea_modules/
+out/
+*.iws

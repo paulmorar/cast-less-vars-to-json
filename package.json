@@ -1,0 +1,27 @@
+{
+  "name": "cast-less-vars-to-json",
+  "version": "1.0.0",
+  "description": "Cast less variables to json key value pairs",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^26.4.2",
+    "less": "^3.12.2"
+  },
+  "keywords": [
+    "less to json",
+    "less variables to json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulmorar/cast-less-vars-to-json.git"
+  },
+  "author": "Paul Morar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulmorar/cast-less-vars-to-json/issues"
+  },
+  "homepage": "https://github.com/paulmorar/cast-less-vars-to-json#readme"
+}
