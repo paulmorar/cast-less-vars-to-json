@@ -10,7 +10,7 @@
     "less": "^3.12.2"
   },
   "devDependencies": {
-    "jest": "^26.4.2"
+    "jest": "26.4.2"
   },
   "keywords": [
     "less to json",
