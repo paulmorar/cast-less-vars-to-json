@@ -1,6 +1,6 @@
 {
   "name": "cast-less-vars-to-json",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Cast less variables to json key value pairs",
   "main": "./src/index.js",
   "scripts": {
