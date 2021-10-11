@@ -33,3 +33,7 @@ yarn-error.log*
 .idea_modules/
 out/
 *.iws
+
+### Build  ------------------------------------------- ###
+
+lib
