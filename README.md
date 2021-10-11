@@ -14,7 +14,7 @@ or
 Returns a `Promise`.
 
 ```js
-const castLessVarsToJson = require('cast-less-vars-to-json');
+import castLessVarsToJson from 'cast-less-vars-to-json';
 
 
 // Standard usage
