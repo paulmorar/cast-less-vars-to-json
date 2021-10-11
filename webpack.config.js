@@ -4,10 +4,15 @@ const config = {
   mode: 'production',
   entry: './src/index.js',
   devtool: 'source-map',
+  experiments: {
+    outputModule: true,
+  },
   output: {
     path: path.resolve('lib'),
     filename: 'index.js',
-    libraryTarget: 'commonjs2',
+    library: {
+      type: 'module',
+    }
   },
   module: {
     rules: [

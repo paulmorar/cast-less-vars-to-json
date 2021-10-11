@@ -1,0 +1,6 @@
+/.github
+/src
+.editorconfig
+.prettierrc
+babel.config.cjs
+jest.config.cjs
