@@ -2,15 +2,22 @@
   "name": "cast-less-vars-to-json",
   "version": "2.0.1",
   "description": "Cast less variables to json key value pairs",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "scripts": {
+    "build": "webpack",
     "test": "jest"
   },
   "dependencies": {
     "less": "^4.0.0"
   },
   "devDependencies": {
-    "jest": "27.0.6"
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "jest": "27.0.6",
+    "path": "^0.12.7",
+    "prettier": "^2.4.1",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
   },
   "keywords": [
     "less to json",
@@ -25,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/paulmorar/cast-less-vars-to-json/issues"
   },
-  "homepage": "https://github.com/paulmorar/cast-less-vars-to-json#readme"
+  "homepage": "https://github.com/paulmorar/cast-less-vars-to-json#readme",
+  "files": [
+    "lib"
+  ]
 }
