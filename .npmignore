@@ -4,3 +4,4 @@
 .prettierrc
 babel.config.cjs
 jest.config.cjs
+webpack.config.js
