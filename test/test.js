@@ -1,5 +1,5 @@
-const castLessVarsToJson = require("../src");
-
+import castLessVarsToJson from "../src";
+ 
 describe("cast-less-vars-to-json", () => {
   it("should return JSON with no properties if given no arguments", () => {
     return castLessVarsToJson().then((data) => expect(data).toEqual({}));

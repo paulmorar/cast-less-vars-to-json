@@ -1,6 +1,6 @@
-var path = require('path')
+import path from 'path';
 
-module.exports = {
+const config = {
   mode: 'production',
   entry: './src/index.js',
   devtool: 'source-map',
@@ -21,4 +21,6 @@ module.exports = {
   resolve: {
     extensions: ['.js'],
   },
-}
+};
+
+export default config;
