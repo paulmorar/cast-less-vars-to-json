@@ -26,8 +26,8 @@ jobs:
         uses: "phips28/gh-action-bump-version@master"
         with:
           tag-prefix: ""
-      - run: yarn
-      - run: yarn test
-      - run: yarn publish
+      - run: npm ci
+      - run: npm run test
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
